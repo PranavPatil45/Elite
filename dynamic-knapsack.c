@@ -28,7 +28,6 @@ int main()
 
     int dp[n + 1][W + 1];
 
-    // Initialize DP table
     for (i = 0; i <= n; i++)
     {
         for (w = 0; w <= W; w++)
